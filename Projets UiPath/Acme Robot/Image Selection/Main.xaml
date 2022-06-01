@@ -1,0 +1,105 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Main" mva:VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="1204.8,700" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=mscorlib" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Activities.DynamicUpdate</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Mail.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>System.ServiceModel</AssemblyReference>
+      <AssemblyReference>Microsoft.Bcl.AsyncInterfaces</AssemblyReference>
+      <AssemblyReference>System.ValueTuple</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Composition</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>UiPath.Excel</AssemblyReference>
+      <AssemblyReference>System.Runtime.WindowsRuntime</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence sap:VirtualizedContainerService.HintSize="475.2,635.2" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Application: DoubleUI" sap:VirtualizedContainerService.HintSize="433.6,542.4" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" ScopeGuid="a2bc63a4-6386-42fb-b4b0-11eaffc3696d" Version="V1">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Faire" sap:VirtualizedContainerService.HintSize="375.2,251.2" sap2010:WorkflowViewState.IdRef="Sequence_2">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <uix:NClick ClickType="Single" DisplayName="Click 'doubleui.exe DoubleUI'" sap:VirtualizedContainerService.HintSize="333.6,157.6" sap2010:WorkflowViewState.IdRef="NClick_1" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="a2bc63a4-6386-42fb-b4b0-11eaffc3696d" Version="V1">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable DesignTimeRectangle="329, 161, 130, 37" FriendlyName="'doubleui.exe DoubleUI'" Guid="c0c7d6f8-4253-45ff-b7ea-8ba0226636e4" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAIIAAAAlCAYAAACOGjGrAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAD7SURBVHhe7ZpJDoJAFAW9/63EOWqMGJzQOG1EIido+MJb0XGjLtuqpE7wavk6RVEYIiGgJASUhICSEFASAkpCQEkIKL0Q0vRoUW9kvf4YA7MbDS1Zb73x23ohxKvEZvOlZVluef7EQMweuS3jxKazhTd+27cQtruDOeesqioMROdKO52v34dQlqVBODR7ni83Qvh3CAEEIYAgBBCEAIIQQBACCEIAQQggCAEEIYAgBBCEAIIQQBACCEIA8XMIPJTCsgnh64dS81m881kMSn0W620/DmGfHvV21fN1MMGAjOpN15udN35bLwT8XwkBJSGgJASUhICSELC2sBee7EmTL91ruwAAAABJRU5ErkJggg==" InformativeScreenshot="32fca154bba8ed5910075d33adef7b55.png" ScopeSelectorArgument="&lt;wnd app='doubleui.exe' cls='HwndWrapper*' title='DoubleUI' /&gt;" SearchSteps="Image" TargetType="ImageBased">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                      <uix:Target DesignTimeRectangle="257, 164, 59, 28" FriendlyName="'doubleui.exe DoubleUI'" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAADsAAAAcCAYAAADfjMc9AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAT+SURBVFhH7ZVZU1RXFIXzJ/JqTPmSBJlCQ0EQpZEhgDQiKrSJiIA4oCQFMkY0gwgqiKJEwQkTZTbMIAooStOYgDQICNjNIN32ePkLXy5gVRCRYFWqYiEP62mdfc79ztl37Y+mpqb4ULQCu1y1ArtctQK7XLUCu1z1r7CCxcjE8F9U5B/n4K4dBAcF8014LDklLYxojQgL1LyL+upzOBR1nObhF1gW8Oert+4Mh/ak0zKytPVztTisYOJ5RzkxgT5IvYKIPXqKvPOnSYgMxsVVStiPRQxoTQvXLlGKgiicvgildGBsSR/ffikCJys5ZYPj/y2sUaMkM8wdV//D3O4YQKs3YDIZ0Y0PUpW7H4mrjHONTzFNCRheDKNsrqOspIiiolJq7ykYfmGY2UcQDAx1PaC6opSikjJqmh+jnu4K4RXs5yFcb2ujqaacYtFvaFMxYTAv2DWvwepHaW9uRtk3QGdrPWXFxZRV36VXrcUs7j2/dhFYI6q6HLxtJaQWPURrFuZ4FnSjPVQUXKKhcwidrp+iY9H4eXjgH7QFv42OrLV25/DZap7rLTxrySM62BN3n03IZJ44u/iKXgNqk0WEjcTuUytkO+UEb9uMr5s9tusCya5/gsky98xZvQbb30iE73o2BGxme1AQMj8pttb2BH13FdWE/o3LejusMMG9X7/Hxl5OqXLk7S0jWJhQ3GCXnzeJ+fX0DAzS09nEqWhPJP77uNOv4WacF5KQVBo6eujvVXLr+G6kW1O4N2wUYSOwWvUxW1Lzaevuo0dRTpyPDRv2XuaZ0fzGefNhw32s+cR7P1dqFfT2dVFxOgo7exnXOzRY5r3u22ENz/kjI5xVLpHUdo0uEkQCZt0YKlUvmsmX6CbHUQ90U34yHBdpKGV/ivsck2H3lYz0wkoeKrvpVXWh7OpHa5xu40gkn/lz+bF65kItZh0l8W44SVNp17+ZB/Nhd/uuRfZzJRr9bBfoHlzAzdGOtMohsTNer12kjSdpLYjHXiKnWHxZ8zzfrJ/kSftdHvWMYDBO0t1SxbW8bH5JO0xUWAgeDmtY5RRAYfsomseVJIdvRurqiO1aB3y/jSX39zsMieE2G1AhlLwKKMFs5HbKepzWJfJwCbARvtbIs5sY18/6hkeXcHOyIqn82bvAmuhvzMXX4UsSbyqYNM39fwQ0XbUc8HJhb1YNnY3nCJVK8JbvIyntJ07mXiQnRY6NS6AIOzaz3mzU8rSjiRvnTxAfsQlrax9O3xl8BftPGv9PsNNprODETimO0hjK28W20xsxGQ1MiuFUfCIMB2d/cutV1GUEYOsg51a3BoNB9NW9FCZ5sdo5gGutCorTE/khv5FRrR6jQUd/ax5+ti7EFHa+P7DTc3bw/m9E+ktx8wjk4NGTXDiTyQG5Fy4bNhKTW4f6pYHOWwk42kiQRR/h3IVsEqJDcZesYbXEn4KWJ1Rl7sLZ1YOohHTOnslgzzZPPL6OpqJb+x7BihIsJjS9bVxNj2fnjm0EbdnO7oMpXKtXMvrSJAaXgFE7QNXFNMK2B7N1RxjJWdeprrpBckwyJe3D4phSUX4+mXD5dH2ICH2KenFkGcxTqGqyiTuQwf1R7UwICmYT968kERt3GZU4muZ/T09NFnExmTwY0yGolWQd2U9mWSc606xv7KkmMS6Gq23iZSw5jZehVmCXq1Zgl6tWYJerPiDYKf4G3l7j2edpyqIAAAAASUVORK5CYII=" SearchSteps="Image" TargetType="ImageBased" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NClick.Target>
+            </uix:NClick>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="32, 32, 781, 785" FilePath="DoubleUI\doubleui.exe" IconBase64="iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAFtSURBVFhH7dXNSsNAFIbhIKKIVET0Vv0XKtaF4FoIuBTE25DiLZjEfS4g/8nmyCkZE4dMZnKOplHmwIulVH34sqhjz569/3K3d/cwpWpWc10f+q1el2+r+l7XrObEL4/R0/PLqr7XNas5fDMMw0mkBFZVNXplWX6rKAragvjHnON3cjIM68JpgQ/u49dPURt4tPiAw0UABzcB7F8HsDcPYDb3YffKh51LH7YvPNg692DzzIONUw+ckwbouq429oKDcS2gSLWc0YKqBJCCG7Jgnue8R0zBCaBuOcRpgaoEkILDENS1mBwbSMFhJsthWZbxHjEFh5kuqAWqEkAKDjNZTsQCUnAYgroWk2M/YgoOM1kOS9OUtyAFh5kuyAZScJjJciIWkILDENW1mNzPAKV/bpLJcliSJEwgMdWCMm5tQJPlJgPsw8VxvF6gDscCYu0v/SFfX6Y4FnAMHBk4Fi6KIjVwStUse/bs/fFznE83LCEvkrmHiwAAAABJRU5ErkJggg==" InformativeScreenshot="183c03a5dd49a798ea978f82ceaf2416.png" Selector="&lt;wnd app='doubleui.exe' cls='HwndWrapper*' title='DoubleUI'/&gt;" />
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+  </Sequence>
+</Activity>
